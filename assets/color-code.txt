@@ -1,0 +1,19 @@
+in order from left to right in colour-wheel
+
+#FFFFFF
+
+#DOE1F9
+
+#4D648D
+
+#283655
+
+#1E1F26
+
+colormind.io color palette
+
+#F0F0EB - back ground for dark on light, font color for light on dark
+#6B838D - accent color
+#7A7A8D - catch attention
+#716D7F - accent color
+#171F43 - font color for dark on light, back ground color for light on dark

@@ -1,0 +1,201 @@
+/* variables */
+:root{
+    --fcl: #F0F0EB; /* font color light*/
+    --fcd: #171F43; /* font color dark */
+    --bcl: #F0F0EB; /* background color light*/
+    --bcd: #171F43; /* background color dark */
+    --lac: #6B838D; /* accent color light */
+    --dac: #716D7F; /* accent color dark */
+    --mbc: #7A7A8D; /* main brand color */
+}
+
+/* reset */
+
+body,p,a,ul,li,div,nav,h2{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+/* base styles */
+
+body{
+    /* overflow: hidden; */
+    position: relative;
+}
+
+.side-nav{
+    /*background-color: var(--bcd);*/
+    box-sizing: border-box;
+}
+
+.content{
+    box-sizing: border-box;
+}
+
+/* fonts */
+
+.side-nav a{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.25vw;
+    /* color: var(--fcl); */
+}
+
+.content p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1vw;
+    font-weight: 200;
+    letter-spacing: .010em;
+    line-height: 1.6em;
+}
+
+.content h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.75vw;
+    font-weight: 100;
+    letter-spacing: .010em;
+    line-height: 1.6em;
+    border-bottom: 2px solid #7A7A8D;
+    margin: 1vh auto;
+}
+
+/* large tablet and laptop styles*/
+
+@media screen and (min-width: 1200px){
+
+    .side-nav{
+        float: left;
+        width: 20%;
+        height: 100%;
+        padding: 15vh 1vw;
+        position: fixed;
+        top: 0;
+        left: 0;
+        text-align: center;
+    }
+    .side-nav img{
+        max-width: 250px;
+        margin-bottom: 3vh;
+    }
+    .side-nav a{
+        display: block;
+        margin: 2vh auto;
+    }
+    .content{
+        float: left;
+        width: 73%;
+        padding: 1vw;
+        margin-left: 23%;
+    }
+
+}
+
+@media screen and (min-width: 960px){
+
+    .side-nav{
+        float: left;
+        width: 20%;
+        height: 100%;
+        padding: 15vh 1vw;
+        position: fixed;
+        top: 0;
+        left: 0;
+        text-align: center;
+    }
+    .side-nav img{
+        max-width: 200px;
+        margin-bottom: 1.5vh;
+    }
+    .side-nav a{
+        display: block;
+        margin: 1.25vh auto;
+        font-size: 23px;
+    }
+    .content{
+        float: left;
+        width: 73%;
+        padding: 1vw;
+        margin-left: 23%;
+    }
+    .content p{
+        font-size: 18px;
+        font-weight: 200;
+        letter-spacing: .010em;
+        line-height: 1.5em;
+    }
+    
+    .content h2{
+        font-size: 28px;
+        font-weight: 100;
+        letter-spacing: .010em;
+        line-height: 1.5em;
+        border-bottom: 2px solid #7A7A8D;
+        margin: 1vh auto;
+    }
+
+}
+
+/* small tablets styles*/
+@media screen and (max-width: 959px){
+
+    .side-nav{
+        float: none;
+        position: relative;
+        text-align: center;
+    }
+    .side-nav img{
+        max-width: 150px;
+        margin: 10px;
+    }
+    .side-nav a{
+        display: block;
+        margin: 0.5vh auto;
+        font-size: 20px;
+    }
+    .content{
+        float: none;
+        margin: 10px 25px;
+    }
+    .content h2{
+        font-size: 2.25em;
+    }
+    .content p{
+        font-size: 1.125em;
+    }
+
+}
+
+/* mobile styles */
+
+@media screen and (max-width: 450px){
+
+    .side-nav{
+        float: none;
+        position: relative;
+        text-align: center;
+    }
+    .side-nav img{
+        max-width: 150px;
+        margin: 10px;
+    }
+    .side-nav a{
+        display: block;
+        margin: 0.5vh auto;
+        font-size: 18px;
+    }
+    .content{
+        float: none;
+        margin: 10px 25px;
+    }
+    .content h2{
+        font-size: 23px;
+    }
+    .content p{
+        font-size: 15px;
+    }
+
+}
