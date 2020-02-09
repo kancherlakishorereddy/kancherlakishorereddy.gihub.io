@@ -1,2 +1,2 @@
-# kancherlakishorereddy.gihub.io
-My profile page
+# A template for personal webpages
+A template for profile page
