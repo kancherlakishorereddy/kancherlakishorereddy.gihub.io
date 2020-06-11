@@ -88,7 +88,6 @@ p.text-center{
 p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1vw;
-    font-weight: 200;
     letter-spacing: .010em;
     line-height: 1.6em;
 }
@@ -144,8 +143,9 @@ h2{
 
     .side-nav{
         float: left;
-        width: 22%;
+        width: 25%;
         height: 100%;
+        min-width: min-content;
         padding: 15vh 1vw;
         position: fixed;
         top: 0;
@@ -154,7 +154,7 @@ h2{
         box-sizing: border-box;
     }
     .side-nav img{
-        max-width: 85%;
+        max-width: 80%;
         margin-bottom: 1.5vh;
     }
     .side-nav a.aa{
@@ -171,9 +171,9 @@ h2{
     }
     .content{
         float: left;
-        width: 78%;
+        width: 75%;
         padding: 2% 4%;
-        margin-left: 22%;
+        margin-left: 25%;
         box-sizing: border-box;
     }
     .content p{
@@ -232,11 +232,6 @@ h2{
 
 @media screen and (max-width: 450px){
 
-    .side-nav{
-        float: none;
-        position: relative;
-        text-align: center;
-    }
     .side-nav img{
         max-width: 150px;
         margin: 10px;
@@ -249,19 +244,15 @@ h2{
     .side-nav a.t{
         font-size: 24px;
     }
-    .side-nav a.ii i{
-        margin: 10px;
-        font-size: 20px;
-    }
     .content{
         float: none;
-        margin: 10px 25px;
+        margin: 10px 15px;
     }
     .content h2{
         font-size: 23px;
     }
     .content p{
-        font-size: 15px;
+        font-size: 16px;
     }
 
 }
