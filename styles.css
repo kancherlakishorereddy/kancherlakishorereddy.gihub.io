@@ -94,7 +94,7 @@ p{
 h2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.75vw;
-    font-weight: 100;
+    font-weight: 300;
     letter-spacing: .010em;
     line-height: 1.6em;
     border-bottom: 2px solid #7A7A8D;
@@ -172,22 +172,20 @@ h2{
     .content{
         float: left;
         width: 75%;
-        padding: 2% 4%;
+        padding: 1.5% 2.5%;
         margin-left: 25%;
         box-sizing: border-box;
     }
     .content p{
-        font-size: 18px;
+        font-size: 19px;
         font-weight: 200;
         letter-spacing: .010em;
-        line-height: 1.5em;
     }
     
     .content h2{
         font-size: 28px;
-        font-weight: 100;
+        font-weight: 300;
         letter-spacing: .010em;
-        line-height: 1.5em;
         border-bottom: 2px solid #555581;
         margin: 1vh auto;
     }
@@ -220,7 +218,7 @@ h2{
     .content{
         float: left;
         width: 78%;
-        padding: 2% 4%;
+        padding: 1.5% 2.5%;
         margin-left: 22%;
         box-sizing: border-box;
     }
