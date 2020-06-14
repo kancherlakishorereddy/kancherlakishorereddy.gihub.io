@@ -22,12 +22,13 @@ body{
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    overflow-y: auto;
 }
 
 .area-1, .area-2, .area-3{
-    margin: 10px 0;
+    margin: auto 0;
+    padding: 15px 0;
 }
 
 .area-3{
@@ -111,7 +112,7 @@ h2{
         text-align: center;
     }
     .side-nav img{
-        max-width: 150px;
+        max-width: 175px;
         margin: 10px;
     }
     .side-nav a.aa{
@@ -154,7 +155,7 @@ h2{
         box-sizing: border-box;
     }
     .side-nav img{
-        max-width: 80%;
+        max-width: 90%;
         margin-bottom: 1.5vh;
     }
     .side-nav a.aa{
@@ -172,7 +173,7 @@ h2{
     .content{
         float: left;
         width: 75%;
-        padding: 1.5% 2.5%;
+        padding: 1.5% 3%;
         margin-left: 25%;
         box-sizing: border-box;
     }
@@ -198,7 +199,7 @@ h2{
 
     .side-nav{
         float: left;
-        width: 22%;
+        width: 21%;
         height: 100%;
         padding: 5vh 1vw;
         position: fixed;
@@ -208,7 +209,7 @@ h2{
         box-sizing: border-box;
     }
     .side-nav img{
-        max-width: 80%;
+        max-width: 100%;
         margin-bottom: 1vh;
     }
     .side-nav a.aa{
@@ -218,7 +219,7 @@ h2{
     .content{
         float: left;
         width: 78%;
-        padding: 1.5% 2.5%;
+        padding: 1.5% 3%;
         margin-left: 22%;
         box-sizing: border-box;
     }
@@ -231,7 +232,7 @@ h2{
 @media screen and (max-width: 450px){
 
     .side-nav img{
-        max-width: 150px;
+        max-width: 175px;
         margin: 10px;
     }
     .side-nav a.aa{
