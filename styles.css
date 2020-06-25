@@ -227,6 +227,8 @@ h3{
         font-size: 23px;
     }
     .side-nav a.t{
+        display: block;
+        margin: 1.25vh auto;
         font-size: 26px;
     }
     .side-nav a.ii i{
@@ -398,6 +400,11 @@ h3{
 
 @media screen and (max-width: 450px){
 
+    .side-nav{
+        float: none;
+        position: relative;
+        text-align: center;
+    }
     .side-nav img{
         max-width: 175px;
         margin: 10px;
@@ -408,7 +415,13 @@ h3{
         font-size: 20px;
     }
     .side-nav a.t{
+        display: block;
+        margin: 1vh auto;
         font-size: 24px;
+    }
+    .side-nav a.ii i{
+        margin: 10px;
+        font-size: 23px;
     }
     .content{
         float: none;
@@ -423,7 +436,25 @@ h3{
     .content p{
         font-size: 16px;
     }
+    
     .timeline::after {
-        left: 11px;
+        left: 1px;
+    }
+    .container.left, .container.right {
+      width: 100%;
+      padding-left: 30px;
+      padding-right: 10px;
+    }
+    .container::before {
+      left: 20px;
+      border: medium solid #283655;
+      border-width: 10px 10px 10px 0;
+      border-color: transparent #283655 transparent transparent;
+    }
+    .right {
+      left: 0%;
+    }
+    .left::after, .right::after {
+      left: -13px;
     }
 }
