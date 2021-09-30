@@ -25,8 +25,8 @@ body{
     background-color: #283655;
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
-    overflow-y: auto;
+    flex-wrap: no-wrap;
+    justify-content: space-around;
 }
 
 .side-nav::-webkit-scrollbar {
